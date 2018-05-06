@@ -6,7 +6,7 @@ services:
     container_name: helk-bro
     restart: always
     networks:
-      helk:
+    helk:
         aliases:
           - helk_bro.hunt.local
     
